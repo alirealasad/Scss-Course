@@ -1,0 +1,10 @@
+
+@include responsive($big-break) {
+  //e.g. ipad,small browers
+}
+
+@include responsive($small-break) {
+  body {
+    overflow-x: hidden;
+  }
+}
